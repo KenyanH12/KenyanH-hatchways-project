@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta http=-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="hatchway.css"/>
+  </head>
+
+  <body>
+    <h1>Create Your Very Own Meme</h1>
+  </br>
+    <h2>Fill out form for Memez!</h2>
+  </br>
+</br>
+    
+    <section class="container">
+ <div>
+  <form id="meme-form" class="group-form">
+    <label for="topText">Top Text Here</label><br>
+    <input required id="topText" input="text" type="text" class="form-control"><br>
+  </div> </br>
+
+  <div class="group-form row">
+    <label for="imgURL" id="imgURL" class="col-2 form-label">Image URL goes here:</label><br>
+    <input required id="image" type="url" name="myImage" placeholder="Your URL goes here"/> <br>
+  </div> </br>
+
+  <div class="group-form row">
+    <label class="col-2" for="bottomText">Bottom Text Here:</label><br>
+    <input required type="text" class="form control" id="bottomText" name="bottomText"><br>
+  </div>
+
+  <div>
+    <button class="btn btn-success" id="submit" type="submit" value="submit">Submit Meme</button><br>
+    
+  </div>
+</form>
+</section>
+
+<div class="line">
+
+  </div>
+
+<section class="meme-Gallery">
+  <ul class="gallery">
+
+  </ul>
+</section>
+
+<footer>
+  <div class="container fluid footer" id="border">
+  </div>
+  <button id="deleteBtn">Delete Meme</button>
+</footer>
+
+
+<script src="hatchway.js"></script>
+  </body>
+</html>
